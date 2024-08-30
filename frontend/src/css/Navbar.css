@@ -54,11 +54,12 @@ margin:0 !important;
 .nav-mobile{
 position:fixed;margin: 0;padding: 0 4px;
 box-shadow:0px -2px 3px #e0dcdc;
-   bottom: 0px; min-height: 44px;
+   bottom: 0px; min-height: 44px;left: 0;
 display: flex;justify-content: space-between;
    width: 100%;background-color: #ffffff;
 align-items: center;z-index: 1;
 }
+
 span{
     color: black;
 }
