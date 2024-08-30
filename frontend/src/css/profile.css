@@ -1,0 +1,70 @@
+
+.profile{
+display: flex;flex-direction: column;align-items: center;
+justify-content: center;
+}
+.p-frame{
+display: flex;
+justify-content:center;
+}
+.p-pic img{
+height:160px;object-fit:cover;
+width: 160px;margin-right:25px;
+border-radius:70%;
+}
+.p-info{
+display:flex;
+
+}.p-info p{
+margin: 0;
+    padding: 0 3px;
+}
+.p-gallery{justify-content: space-evenly;
+   display: flex;flex-wrap: wrap;text-align: center;
+}
+.p-gallery img{
+    margin: 5px 0;width:32%;
+text-align: center;
+}
+
+.com-hom{
+
+position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+
+}
+ .over-lay{ background-color: #fff;
+  border-radius: 12px;
+  width: 600px;display: flex;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease;
+min-height: 400px;
+max-height: 500px;
+border: 2px solid grey;
+
+}
+.dbtn{
+margin-top:20px;
+margin-left: 85px;
+height: fit-content;
+background: rgb(157, 254, 12);
+}
+.follow{
+align-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.follow button{padding: 7px;
+background: rgb(12, 254, 64);
+border-radius:21px;
+margin-left: 20px;
+}

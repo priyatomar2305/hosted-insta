@@ -1,0 +1,61 @@
+.create-post{
+display: flex;flex-direction: column;
+align-items: center;
+}
+.create-post-child{
+max-width: 500px;min-width:435px;
+border: 2px solid rgba(40, 38, 38, 0.571);
+}
+.p-header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom:2px solid grey ;
+    height: 40px;padding-bottom: 5px;
+
+}
+.p-header button{
+border: none;color: blue;
+    background: none;
+
+}
+.p-header h1{
+    padding-bottom:5px; margin: 3px auto;
+}
+.main-div{margin:0 7px;
+padding:11px;
+
+}
+.details{
+    border-top: 2px solid grey;
+margin-left: 11px;
+}
+.card-header{
+margin-top: 5px;
+    display: flex;height: max-content;
+}
+.card-pic img{
+border-radius: 50%;object-fit: cover;
+    height: 30px;width: 30px;
+}.card-header h2{
+    padding: 0;margin:0 15px;
+}
+.details textarea{
+    width: 99%;
+    margin-bottom: 0;border: none;
+}
+#output{
+width: 80%;
+border: none;margin: 0px 10px;text-align: center;
+outline: none;max-height: 200px;object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+
+    .create-post-child {
+
+   min-width: 300px;
+    }
+    #output{
+
+        max-height: 135px;
+    }
+}
