@@ -124,7 +124,7 @@ const token = localStorage.getItem("jwt");
                 alt=""
               />
             </div>
-            <h2>{user.name}</h2>
+            <h2>{user?.name || "guest"}</h2>
           </div>
           <textarea
             placeholder="write a caption"
